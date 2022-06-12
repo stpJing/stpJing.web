@@ -10,7 +10,7 @@ import java.sql.Timestamp;
  * date 2022/06/10 23:33
  * @param <T>
  */
-public class Message<T> implements Serializable {
+public class Message<T>{
     boolean success;
     String errorMessage;
     T data;
