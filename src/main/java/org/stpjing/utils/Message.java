@@ -1,4 +1,4 @@
-package org.example.utils;
+package org.stpjing.utils;
 
 import java.io.Serializable;
 import java.sql.Timestamp;

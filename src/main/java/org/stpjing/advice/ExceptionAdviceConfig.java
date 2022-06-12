@@ -1,4 +1,4 @@
-package org.example.advice;
+package org.stpjing.advice;
 
 
 import org.example.utils.Message;

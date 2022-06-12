@@ -1,4 +1,4 @@
-package org.example.annotation;
+package org.stpjing.annotation;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.web.bind.annotation.RestController;
