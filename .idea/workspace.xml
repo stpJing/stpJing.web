@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81798f0d-fc90-4d36-8d35-4f47e6714c67" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="81798f0d-fc90-4d36-8d35-4f47e6714c67" name="Changes" comment="更新readme">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/stpjing/advice/ExceptionAdviceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stpjing/advice/ExceptionAdviceConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/stpjing/advice/ResponseBodyAdivceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stpjing/advice/ResponseBodyAdivceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stpjing/annotation/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stpjing/annotation/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/stpjing/utils/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/stpjing/utils/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,10 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "D:/Personal/Downloads/web/src/main/java/org/stpjing",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "http.proxy",
     "vue.rearranger.settings.migration": "true"
   }
@@ -55,8 +55,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1655030936388</updated>
-      <workItem from="1655030938086" duration="298000" />
+      <workItem from="1655030938086" duration="898000" />
     </task>
+    <task id="LOCAL-00001" summary="更新readme">
+      <created>1655031476031</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655031476031</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -72,6 +80,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新readme" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

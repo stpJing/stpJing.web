@@ -1,10 +1,11 @@
 package org.stpjing.advice;
 
 
-import org.example.utils.Message;
+
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.stpjing.utils.Message;
 
 /**
  * @author 荆延龙
