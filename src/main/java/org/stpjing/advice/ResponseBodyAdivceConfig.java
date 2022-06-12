@@ -13,7 +13,7 @@ import org.stpjing.annotation.MessageController;
 import org.stpjing.utils.Message;
 
 /**
- * @author 荆延龙
+ * @author stpJing
  * @version 1.0.0
  * date 2022/6/10 23:21
  */

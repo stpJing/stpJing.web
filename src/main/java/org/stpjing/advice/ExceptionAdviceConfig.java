@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.stpjing.utils.Message;
 
 /**
- * @author 荆延龙
+ * @author stpJing
  * @version 1.0.0
  * date: 2022/06/10 23:33
  */

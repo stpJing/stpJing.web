@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.lang.annotation.*;
 
 /**
- * @author 荆延龙
+ * @author stpJing
  * @version 1.0.0
  * 继承RestController，用于标记Controller
  */

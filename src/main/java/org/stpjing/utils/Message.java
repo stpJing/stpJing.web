@@ -5,7 +5,7 @@ import java.sql.Timestamp;
 
 /**
  *
- * @author 荆延龙
+ * @author stpJing
  * @version 1.0.0
  * date 2022/06/10 23:33
  * @param <T>
