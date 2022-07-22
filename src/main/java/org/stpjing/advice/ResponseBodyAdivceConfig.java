@@ -4,11 +4,13 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.MethodParameter;
+import org.springframework.core.annotation.AnnotationUtils;
 import org.springframework.http.MediaType;
 import org.springframework.http.server.ServerHttpRequest;
 import org.springframework.http.server.ServerHttpResponse;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseBodyAdvice;
+import org.stpjing.annotation.MessageBody;
 import org.stpjing.annotation.MessageController;
 import org.stpjing.utils.Message;
 
@@ -44,13 +46,20 @@ public class ResponseBodyAdivceConfig implements ResponseBodyAdvice {
     @Override
     public Object beforeBodyWrite(Object returnValue, MethodParameter returnType, MediaType selectedContentType, Class selectedConverterType, ServerHttpRequest request, ServerHttpResponse response) {
         String returnClassType = returnType.getParameterType().getName();
+        //必须对String单独处理，否则报错
+        Message message = Message.successMessage(returnValue);
+        MessageBody annotation = AnnotationUtils.findAnnotation(returnType.getMethod(), MessageBody.class);
+        if (annotation!=null)
+            message.setMessage(annotation.value());
+
+
         if ("java.lang.String".equals(returnClassType)){
             try {
-                return objectMapper.writeValueAsString(Message.successMessage(returnValue));
+                return objectMapper.writeValueAsString(message);
             } catch (JsonProcessingException e) {
                 throw new RuntimeException(e);
             }
         }
-        return Message.successMessage(returnValue);
+        return message;
     }
 }

@@ -12,12 +12,12 @@ import java.sql.Timestamp;
  */
 public class Message<T>{
     boolean success;
-    String errorMessage;
+    String message;
     T data;
     Timestamp timestamp;
-    public Message(boolean success, String errorMessage, T data){
+    public Message(boolean success, String message, T data){
         this.success = success;
-        this.errorMessage = errorMessage;
+        this.message = message;
         this.data = data;
         this.timestamp = new Timestamp(System.currentTimeMillis());
     }
@@ -39,12 +39,12 @@ public class Message<T>{
         this.success = success;
     }
 
-    public String getErrorMessage() {
-        return errorMessage;
+    public String getMessage() {
+        return message;
     }
 
-    public void setErrorMessage(String errorMessage) {
-        this.errorMessage = errorMessage;
+    public void setMessage(String message) {
+        this.message = message;
     }
 
     public T getData() {
